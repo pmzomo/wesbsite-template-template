@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>East African Arthroscopy Association (EAAA) - Expert Orthopedic Surgeons</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=100&h=60&fit=crop" alt="EAAA Logo" class="logo-img">
+                <span class="logo-text">EAAA</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="#about" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#about">Our Mission</a>
+                        <a href="#team">Executive Committee</a>
+                        <a href="#history">History</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#services" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#arthroscopy">Arthroscopic Procedures</a>
+                        <a href="#consultations">Consultations</a>
+                        <a href="#training">Training Programs</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#education" class="nav-link">Education <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#courses">Courses</a>
+                        <a href="#workshops">Workshops</a>
+                        <a href="#conferences">Conferences</a>
+                        <a href="#research">Research</a>
+                    </div>
+                </div>
+                <a href="#events" class="nav-link">Events</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Slider -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('https://images.pexels.com/photos/4270090/pexels-photo-4270090.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1 class="slide-title">East African Arthroscopy Association</h1>
+                    <p class="slide-subtitle">Leading the future of minimally invasive orthopedic surgery across East Africa</p>
+                    <button class="cta-button">Learn More</button>
+                </div>
+            </div>
+            
+            <div class="slide" style="background-image: url('https://images.pexels.com/photos/4021779/pexels-photo-4021779.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1 class="slide-title">Expert Orthopedic Surgeons</h1>
+                    <p class="slide-subtitle">Dedicated specialists providing world-class arthroscopic procedures and patient care</p>
+                    <button class="cta-button">Meet Our Team</button>
+                </div>
+            </div>
+            
+            <div class="slide" style="background-image: url('https://images.pexels.com/photos/7446982/pexels-photo-7446982.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1 class="slide-title">Advanced Training Programs</h1>
+                    <p class="slide-subtitle">Comprehensive education and certification in arthroscopic surgical techniques</p>
+                    <button class="cta-button">View Courses</button>
+                </div>
+            </div>
+            
+            <div class="slide" style="background-image: url('https://images.pexels.com/photos/4270076/pexels-photo-4270076.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1 class="slide-title">Cutting-Edge Research</h1>
+                    <p class="slide-subtitle">Pioneering innovations in arthroscopic surgery and joint preservation</p>
+                    <button class="cta-button">Research Papers</button>
+                </div>
+            </div>
+            
+            <div class="slide" style="background-image: url('https://images.pexels.com/photos/4021773/pexels-photo-4021773.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1 class="slide-title">Join Our Community</h1>
+                    <p class="slide-subtitle">Connect with leading orthopedic professionals across East Africa</p>
+                    <button class="cta-button">Become a Member</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slider-nav">
+            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        
+        <div class="slider-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+            <span class="dot" data-slide="4"></span>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About EAAA</h2>
+                <p class="section-subtitle">Leading excellence in arthroscopic surgery across East Africa</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Mission</h3>
+                    <p>The East African Arthroscopy Association (EAAA) is dedicated to advancing the field of arthroscopic surgery through education, research, and the promotion of best practices among orthopedic surgeons throughout East Africa.</p>
+                    
+                    <h3>Our Vision</h3>
+                    <p>To be the premier organization for arthroscopic surgery education and innovation in East Africa, ensuring patients receive the highest quality minimally invasive orthopedic care.</p>
+                    
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Members</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">25+</span>
+                            <span class="stat-label">Years of Excellence</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10,000+</span>
+                            <span class="stat-label">Procedures</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/4021989/pexels-photo-4021989.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Arthroscopic Surgery" class="animate-on-scroll">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive arthroscopic and orthopedic solutions</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-bone"></i>
+                    </div>
+                    <h3>Knee Arthroscopy</h3>
+                    <p>Minimally invasive procedures for knee joint conditions, including meniscal tears, ACL reconstruction, and cartilage repair.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <h3>Shoulder Arthroscopy</h3>
+                    <p>Advanced arthroscopic treatment for rotator cuff tears, shoulder impingement, and joint instability.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Hip Arthroscopy</h3>
+                    <p>Cutting-edge procedures for hip labral tears, femoroacetabular impingement, and joint preservation.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Training & Education</h3>
+                    <p>Comprehensive training programs and continuing education for orthopedic surgeons and medical professionals.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Research & Innovation</h3>
+                    <p>Leading research initiatives in arthroscopic techniques and minimally invasive surgical technologies.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Professional Network</h3>
+                    <p>Connecting orthopedic professionals across East Africa for knowledge sharing and collaboration.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Expert Team</h2>
+                <p class="section-subtitle">Leading orthopedic surgeons specializing in arthroscopic procedures</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-member animate-on-scroll">
+                    <div class="member-image">
+                        <img src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Dr. Sarah Kimani">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Dr. Sarah Kimani</h3>
+                    <p class="member-title">President & Senior Arthroscopic Surgeon</p>
+                    <p class="member-bio">Specializing in complex knee and shoulder arthroscopy with over 15 years of experience.</p>
+                </div>
+                
+                <div class="team-member animate-on-scroll">
+                    <div class="member-image">
+                        <img src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Dr. James Mwangi">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Dr. James Mwangi</h3>
+                    <p class="member-title">Vice President & Hip Specialist</p>
+                    <p class="member-bio">Pioneer in hip arthroscopy techniques and minimally invasive joint preservation.</p>
+                </div>
+                
+                <div class="team-member animate-on-scroll">
+                    <div class="member-image">
+                        <img src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Dr. Grace Nkomo">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Dr. Grace Nkomo</h3>
+                    <p class="member-title">Secretary & Education Director</p>
+                    <p class="member-bio">Leading our educational initiatives and training programs for arthroscopic surgery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events" id="events">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Upcoming Events</h2>
+                <p class="section-subtitle">Join us for conferences, workshops, and educational seminars</p>
+            </div>
+            
+            <div class="events-grid">
+                <div class="event-card animate-on-scroll">
+                    <div class="event-date">
+                        <span class="day">25</span>
+                        <span class="month">MAR</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Advanced Knee Arthroscopy Workshop</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+                        <p><i class="fas fa-clock"></i> 9:00 AM - 5:00 PM</p>
+                        <button class="event-btn">Register Now</button>
+                    </div>
+                </div>
+                
+                <div class="event-card animate-on-scroll">
+                    <div class="event-date">
+                        <span class="day">15</span>
+                        <span class="month">APR</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>EAAA Annual Conference 2024</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Kampala, Uganda</p>
+                        <p><i class="fas fa-clock"></i> 3 Days Event</p>
+                        <button class="event-btn">Register Now</button>
+                    </div>
+                </div>
+                
+                <div class="event-card animate-on-scroll">
+                    <div class="event-date">
+                        <span class="day">08</span>
+                        <span class="month">MAY</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Hip Arthroscopy Masterclass</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Dar es Salaam, Tanzania</p>
+                        <p><i class="fas fa-clock"></i> 8:00 AM - 6:00 PM</p>
+                        <button class="event-btn">Register Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">Get in touch with the East African Arthroscopy Association</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item animate-on-scroll">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>EAAA Headquarters<br>Medical Plaza, Nairobi<br>Kenya, East Africa</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item animate-on-scroll">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+254 700 123 456<br>+254 020 123 4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item animate-on-scroll">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@eaaa.org<br>admin@eaaa.org</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form animate-on-scroll">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=100&h=60&fit=crop" alt="EAAA Logo">
+                        <span>EAAA</span>
+                    </div>
+                    <p>Leading the future of arthroscopic surgery across East Africa through education, research, and professional excellence.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Knee Arthroscopy</a></li>
+                        <li><a href="#">Shoulder Arthroscopy</a></li>
+                        <li><a href="#">Hip Arthroscopy</a></li>
+                        <li><a href="#">Training Programs</a></li>
+                        <li><a href="#">Research</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Education</h4>
+                    <ul>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Workshops</a></li>
+                        <li><a href="#">Conferences</a></li>
+                        <li><a href="#">Certification</a></li>
+                        <li><a href="#">Research Papers</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 East African Arthroscopy Association (EAAA). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
